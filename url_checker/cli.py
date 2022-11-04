@@ -15,7 +15,7 @@ def user_cli_input_args():
 
     parser.add_argument(
         "-u",
-        "-urls",
+        "--urls",
         metavar="URLs",
         nargs="+",
         type=str,
@@ -24,7 +24,8 @@ def user_cli_input_args():
     )
 
     parser.add_argument(
-        "-f" "--input-file",
+        "-f",
+        "--input-file",
         metavar="FILE",
         type=str,
         default="",
